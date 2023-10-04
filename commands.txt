@@ -1,0 +1,3 @@
+mkdir - creates folder
+mv [file1] [file2] ... [filen] [directory] - moves
+git init - start git
