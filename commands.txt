@@ -1,3 +1,13 @@
 mkdir - creates folder
 mv [file1] [file2] ... [filen] [directory] - moves
-git init - start git
+
+git init
+git add .
+git commit -m "commit desc"
+if(fatal error){
+    git config --global user.email "mvinson289@gmail.com"
+    git config --global user.name "MicaiahHTML"
+}
+
+git remote add origin https://github.com/MicaiahHtml/starwars.git
+git push -u origin main
